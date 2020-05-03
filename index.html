@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Quiz GAme</title>
+</head>
+
+<body>
+  <div class="game-container">
+    <h1 class="title">QUIZ APPLICATION</h1>
+    <div class="game-wrapper">
+      <div>
+        <h3 class="question"></h3>
+      </div>
+      <div class="options">
+        <p id="op1" onclick="button(this)"></p>
+        <p id="op2" onclick="button(this)"></p>
+        <p id="op3" onclick="button(this)"></p>
+        <p id="op4" onclick="button(this)"></p>
+      </div>
+      <div class="information">
+        <button type="button" class="next" onclick="next()" id="button">Next</button>
+        <div class="score-wrap"><span class="score-text">Score:</span>
+          <span id="score-number">0</span>
+        </div>
+      </div>
+    </div>
+    <script src=" script.js"></script>
+  </div>
+  <script src="https://kit.fontawesome.com/294a57fe41.js"></script>
+</body>
+
+</html>
